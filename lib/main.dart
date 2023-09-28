@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ieee_project/listview_screen.dart';
+import 'package:ieee_project/mydialog_screen.dart';
 
 
 
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home:  MyGridView(),
+      home:  DialogScreen(),
     );
   }
 }
